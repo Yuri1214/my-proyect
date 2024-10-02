@@ -1,0 +1,140 @@
+/* Estilos generales */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Estilo del contenedor de categoría */
+.categoria {
+    width: 350px;
+    padding: 25px;
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.categoria:hover {
+    background-color: #f8f8f8;
+    color: #333;
+    cursor: pointer;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
+}
+
+/* Estilo del formulario */
+form {
+    background-color: #ffffff;
+    padding: 40px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los mensajes de alerta */
+.alert {
+    
+  margin-bottom: 20px; /* Añadir margen inferior */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.alert.error {
+    color: #be1627;
+    background-color: #ecadb2;
+    border-color: #e5a0a7;
+}
+
+.alert.success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+
+
+/* Contenedor de categorías */
+body > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+
+
+.categoria:hover {
+    background-color: #f8f8f8;
+    color: #333;
+    cursor: pointer;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
+}
+
+/*----
+
+
+
+/* Contenedor principal para todas las categorías */
+body > div {
+    display: block;
+    width: 100%;
+    max-width: 600px; /* Ancho máximo para que las categorías no sean demasiado anchas */
+}
+
+
+
+.categoria:hover {
+    background-color: #f8f8f8;
+    color: #333;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+}
+
+/* Ajustes para que no haya desplazamiento lateral */
+body {
+    overflow-x: hidden; /* Evita que aparezca la barra de desplazamiento horizontal */
+}
+
